@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Đồ án học phần về phân tích và thiết kế phân hệ quản lý thuê phòng 22Land Residence.">
+  <title>22Land Residence — Hotel Management System | Vũ Trung Kiên</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip" href="#main">Đến nội dung chính</a>
+  <header class="site-header"><nav class="wrap nav" aria-label="Điều hướng chính"><a class="brand" href="index.html">Vũ Trung Kiên<span>.</span></a><div class="nav-links"><a href="index.html#du-an">Dự án</a><a href="index.html#ho-so">Hồ sơ</a><a href="index.html#lien-he">Liên hệ</a></div></nav></header>
+  <main id="main">
+    <section class="hero case-hero" aria-labelledby="case-title">
+      <div class="wrap">
+        <a class="back-link" href="index.html#du-an">← Tất cả dự án</a>
+        <p class="eyebrow">2025 · Phân tích và thiết kế hệ thống thông tin</p>
+        <h1 id="case-title">22Land Residence<span class="title-sub">Hotel Management System</span></h1>
+        <p class="intro">Bài tập lớn học phần về phân hệ quản lý thuê phòng.</p>
+        <div class="actions"><a class="button" href="#so-do">Xem sơ đồ <span aria-hidden="true">↓</span></a><a class="button secondary" href="#giao-dien">Xem giao diện <span aria-hidden="true">↓</span></a></div>
+      </div>
+    </section>
+
+    <div class="wrap case-content">
+      <nav class="section-nav" aria-label="Nội dung dự án"><a href="#pham-vi">Phạm vi</a><a href="#so-do">Sơ đồ nghiệp vụ</a><a href="#du-lieu">Mô hình dữ liệu</a><a href="#giao-dien">Giao diện</a><a href="#gioi-han">Giới hạn</a></nav>
+
+      <section class="case-section" id="pham-vi">
+        <h2>Bài toán và phạm vi</h2>
+        <p>Phân tích và thiết kế phân hệ quản lý thuê phòng cho đề tài 22Land Residence. Phạm vi gồm đặt phòng trực tiếp và online, quản lý khách hàng, nhận–trả phòng, thanh toán và báo cáo thống kê.</p>
+        <p>Bản thiết kế mô tả quy trình và luồng thông tin, xác định thực thể và quan hệ dữ liệu, sau đó dùng giao diện minh họa để thể hiện các chức năng chính.</p>
+      </section>
+
+      <section class="case-section" id="so-do">
+        <h2>Sơ đồ nghiệp vụ</h2>
+        <p>Activity Diagram mô tả trình tự đặt phòng. Context Diagram cho thấy hệ thống trao đổi thông tin với các tác nhân bên ngoài. DFD mô tả luồng dữ liệu giữa tác nhân, tiến trình và kho dữ liệu.</p>
+        <div class="figure-grid">
+          <figure class="evidence diagram"><a href="assets/booking-activity.png" aria-label="Mở ảnh gốc sơ đồ hoạt động đặt phòng online"><img src="assets/booking-activity.png" width="598" height="788" alt="Sơ đồ hoạt động đặt phòng online với hai làn khách hàng và hệ thống"></a><figcaption><strong>Activity Diagram · Đặt phòng online</strong><span>Hình 2 · Trang 26 của báo cáo gốc</span></figcaption></figure>
+          <figure class="evidence diagram"><a href="assets/context.png" aria-label="Mở ảnh gốc biểu đồ ngữ cảnh"><img src="assets/context.png" width="777" height="720" alt="Biểu đồ ngữ cảnh hệ thống quản lý khách sạn và các tác nhân bên ngoài"></a><figcaption><strong>Context Diagram · Hệ thống quản lý khách sạn</strong><span>Hình 9 · Trang 33 của báo cáo gốc</span></figcaption></figure>
+        </div>
+        <figure class="evidence diagram diagram-wide"><a href="assets/dfd.png" aria-label="Mở ảnh gốc DFD mức đỉnh"><img src="assets/dfd.png" width="1430" height="1106" alt="DFD mức đỉnh với các tiến trình quản lý thuê phòng, thanh toán và báo cáo"></a><figcaption><strong>DFD · Biểu đồ mức đỉnh</strong><span>Hình 11 · Trang 38 của báo cáo gốc</span></figcaption></figure>
+      </section>
+
+      <section class="case-section" id="du-lieu">
+        <h2>ERD và mô hình quan hệ</h2>
+        <p>Xác định thực thể, thuộc tính và quan hệ dữ liệu, sau đó thể hiện chúng bằng ERD và mô hình cơ sở dữ liệu quan hệ. Bấm vào hình để xem ở kích thước gốc.</p>
+        <div class="figure-grid">
+          <figure class="evidence diagram"><a href="assets/erd.png" aria-label="Mở ảnh gốc ERD"><img src="assets/erd.png" width="1430" height="994" alt="ERD thể hiện các thực thể, thuộc tính và quan hệ trong phân hệ"></a><figcaption><strong>ERD · Sơ đồ thực thể–quan hệ</strong><span>Hình 19 · Trang 60 của báo cáo gốc</span></figcaption></figure>
+          <figure class="evidence diagram"><a href="assets/relational.png" aria-label="Mở ảnh gốc mô hình cơ sở dữ liệu quan hệ"><img src="assets/relational.png" width="1085" height="806" alt="Mô hình cơ sở dữ liệu quan hệ với các bảng và liên kết"></a><figcaption><strong>Mô hình cơ sở dữ liệu quan hệ</strong><span>Hình 20 · Trang 61 của báo cáo gốc</span></figcaption></figure>
+        </div>
+      </section>
+
+      <section class="case-section" id="giao-dien">
+        <h2>Giao diện minh họa</h2>
+        <p>Đồ án minh họa các màn hình đặt phòng, nhận–trả phòng, quản lý khách hàng, thanh toán và báo cáo. Dưới đây là ba màn hình trích trực tiếp từ báo cáo.</p>
+        <figure class="evidence"><a href="assets/booking-ui.png" aria-label="Mở ảnh gốc giao diện đặt phòng"><img src="assets/booking-ui.png" width="1299" height="627" alt="Màn hình minh họa quản lý đặt phòng"></a><figcaption><strong>Quản lý đặt phòng</strong><span>Hình 26 · Trang 67 của báo cáo gốc</span></figcaption></figure>
+        <figure class="evidence"><a href="assets/checkin-ui.jpg" aria-label="Mở ảnh gốc giao diện nhận phòng"><img src="assets/checkin-ui.jpg" width="1299" height="618" alt="Màn hình minh họa quản lý nhận phòng"></a><figcaption><strong>Quản lý nhận phòng</strong><span>Hình 27 · Trang 68 của báo cáo gốc</span></figcaption></figure>
+        <figure class="evidence"><a href="assets/reporting-ui.png" aria-label="Mở ảnh gốc giao diện báo cáo"><img src="assets/reporting-ui.png" width="1299" height="626" alt="Màn hình minh họa báo cáo và thống kê"></a><figcaption><strong>Báo cáo và thống kê</strong><span>Hình 32 · Trang 73 của báo cáo gốc</span></figcaption></figure>
+      </section>
+
+      <section class="case-section" id="gioi-han">
+        <h2>Kết quả học tập và giới hạn</h2>
+        <p>Đồ án thực hành việc chuyển quy trình thuê phòng thành sơ đồ nghiệp vụ, mô hình dữ liệu và giao diện minh họa. Các hình thuộc bản thiết kế học phần năm 2025. Số liệu trên giao diện là nội dung minh họa của bản thiết kế. Phạm vi trình bày dừng ở phân tích và thiết kế học thuật.</p>
+      </section>
+      <div class="case-next"><a class="text-link" href="olist.html">Dự án Olist E-commerce <span aria-hidden="true">→</span></a></div>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-grid"><div><h2>Liên hệ</h2><p>Vũ Trung Kiên · Hà Nội, Việt Nam</p></div><div class="footer-links"><a href="mailto:vukien503@gmail.com">vukien503@gmail.com</a><a href="https://github.com/vukien123">github.com/vukien123 <span aria-hidden="true">↗</span></a></div></div></footer>
+</body>
+</html>
